@@ -64,14 +64,6 @@ Estos datos son usados para calcular conversiones y arbitrajes en tiempo real.
 | POST   | `/arbitrage-test`   | Detecta oportunidades de arbitraje desde `from` con `amount`. |
 | GET    | `/markets`          | Devuelve todos los mercados con último precio, incluyendo inversos. |
 
-**Payload ejemplo para `/convert`:**
-```json
-{
-  "from": "CLP",
-  "to": "PEN",
-  "amount": 10000
-}
-
 # Buda Converter - Frontend
 
 ## Descripción
